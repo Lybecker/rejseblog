@@ -1,0 +1,136 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: A tech blog about the things I'm passionate about
+email: anders@lybecker.com
+description: A blog about cloud computing, programming and related stuff
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.rejse.blog" # the base hostname & protocol for your site, e.g. http://example.com
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "UA-1183004-1"
+    anonymize_ip: false # default
+minimal_mistakes_skin: default
+search: true
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+# Outputting
+# permalink: /:categories/:title/
+paginate: 10 # amount of posts to show
+paginate_path: /page:num/
+timezone: CET # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+plugins:
+    - jekyll-redirect-from
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - jekyll-avatar
+    - jemoji
+    - jekyll-mentions
+    - jekyll-include-cache
+    - jekyll-feed
+
+# theme: minima
+# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+
+author:
+  name   : "Anders Lybecker"
+  avatar : "/assets/images/anders_lybecker_400x400.jpg"
+  bio    : "Engineering lead at Microsoft helping strategic important customers with their digital transformation journey to the cloud."
+  location : "Copenhagen, Denmark"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/lybecker"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lybecker"
+
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/lybecker"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/lybecker"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      classes: wide
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "lybecker"
+
+atom_feed:
+  path: "http://feeds.lybecker.com/AndersLybecker"
+
+teaser: /assets/images/topbar.png

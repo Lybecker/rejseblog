@@ -1,0 +1,13 @@
+main:
+  - title: "Categories"
+    url: /categories/
+  - title: "Speaking"
+    url: /speaking/
+  - title: "About"
+    url: /about/
+  - title: Feed
+    url: http://feeds.lybecker.com/AndersLybecker
+  - title: "Posts by year"
+    url: /posts/
+  - title: "Post by tag"
+    url: /tags/
