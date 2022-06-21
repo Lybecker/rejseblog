@@ -18,16 +18,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: A tech blog about the things I'm passionate about
+title: rejse.blog - Oplev verden med os
 email: anders@lybecker.com
-description: A blog about cloud computing, programming and related stuff
+description: Oplev verden med os
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.rejse.blog" # the base hostname & protocol for your site, e.g. http://example.com
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-1183004-1"
+    tracking_id: ""
     anonymize_ip: false # default
 minimal_mistakes_skin: default
 search: true
@@ -76,7 +76,7 @@ plugins:
 author:
   name   : "Anders Lybecker"
   avatar : "/assets/images/anders_lybecker_400x400.jpg"
-  bio    : "Engineering lead at Microsoft helping strategic important customers with their digital transformation journey to the cloud."
+  bio    : ""
   location : "Copenhagen, Denmark"
   links:
     - label: "Twitter"
@@ -102,7 +102,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -116,7 +116,7 @@ defaults:
     values:
       layout: single
       classes: wide
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid

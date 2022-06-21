@@ -1,13 +1,9 @@
 main:
-  - title: "Categories"
-    url: /categories/
-  - title: "Speaking"
-    url: /speaking/
-  - title: "About"
-    url: /about/
-  - title: Feed
-    url: http://feeds.lybecker.com/AndersLybecker
-  - title: "Posts by year"
-    url: /posts/
-  - title: "Post by tag"
-    url: /tags/
+  - title: "Destinationer"
+    url: /destinationer/
+  - title: "Rejsetips"
+    url: /rejsetips/
+  - title: "Bucket list"
+    url: /bucket-list/
+  - title: "Om"
+    url: /om/
