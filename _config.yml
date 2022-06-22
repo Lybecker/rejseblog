@@ -132,3 +132,5 @@ atom_feed:
   path: "http://feeds.lybecker.com/AndersLybecker"
 
 teaser: /assets/images/topbar.png
+
+theme: jekyll-theme-minimal
