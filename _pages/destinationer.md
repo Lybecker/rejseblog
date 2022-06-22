@@ -1,6 +1,6 @@
 ---
 title: "Posts by Category"
-layout: destinationer
+layout: categories
 permalink: /destinationer/
 author_profile: true
 ---
