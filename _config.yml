@@ -23,7 +23,7 @@ email: anders@lybecker.com
 description: Oplev verden med os
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.rejse.blog" # the base hostname & protocol for your site, e.g. http://example.com
+# url: "https://www.rejse.blog" # the base hostname & protocol for your site, e.g. http://example.com
 analytics:
   provider: "google-gtag"
   google:
@@ -69,9 +69,6 @@ plugins:
     - jekyll-mentions
     - jekyll-include-cache
     - jekyll-feed
-
-# theme: minima
-# remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 author:
   name   : "Anders Lybecker"
