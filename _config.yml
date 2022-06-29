@@ -81,14 +81,12 @@ twitter:
   username: rejseblog
   card: summary_large_image
 
-footer:
+social:
+  name: rejse.blog
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lybecker"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lybecker"
+    - https://twitter.com/rejseblog
+    - https://www.facebook.com/rejseblog
+    - https://www.instagram.com/rejsedotblog/
 
 defaults:
   # _posts
