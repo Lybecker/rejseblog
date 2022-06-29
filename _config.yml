@@ -122,7 +122,7 @@ tag_archive:
 comments:
   provider: "disqus"
   disqus:
-    shortname: "lybecker"
+    shortname: "rejse-blog"
 
 atom_feed:
   path: "http://feeds.lybecker.com/AndersLybecker"
