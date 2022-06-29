@@ -11,6 +11,7 @@ tags:
     - Rejseguide
     - Spa
     - Ungarn
+featured: true
 ---
 
 Vi tog på forlænget weekend til Budapest i december 2016. Denne gang uden børn. Det var dejligt at have nogen dage for os selv, hvor vi kunne gøre tingene i vores tempo – og sove længe! Og Budapest var en helt fortryllende by, som på mange måder vandt vores hjerter. Vi vil endda gå så langt som at sige, at den er endnu smukkere og mere eventyrlig end Prag.

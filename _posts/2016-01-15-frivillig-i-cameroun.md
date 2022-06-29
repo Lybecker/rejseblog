@@ -11,6 +11,7 @@ tags:
     - Afrika
     - Cameroun
     - Frivillig
+featured: true
 ---
 
 Jeg var så heldig at blive valgt til rejse til Cameroun for at lave frivilligt arbejde i en uge i forbindelse med mit job. Arbejdet bestod i at coache start-up virksomheder og hjælpe dem med at accelerere deres vækst – både forretningsmæssigt og teknisk. Det betød at jeg under mit ophold derned kom ret tæt på lokalbefolkningen og fik indblik i kulturen, og de gode steder at tage hen.
