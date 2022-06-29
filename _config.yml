@@ -76,13 +76,10 @@ author:
   avatar : "/assets/images/anders_lybecker_400x400.jpg"
   bio    : ""
   location : "Copenhagen, Denmark"
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/lybecker"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/lybecker"
+
+twitter:
+  username: rejseblog
+  card: summary_large_image
 
 footer:
   links:
