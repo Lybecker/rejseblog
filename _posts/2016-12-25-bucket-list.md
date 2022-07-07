@@ -4,6 +4,8 @@ date: '2016-12-25T15:16:43+01:00'
 author: 'Anders Lybecker'
 permalink: /bucket-list/
 image: /assets/images/waterplane.jpg
+header:
+  overlay_image: /assets/images/waterplane.jpg
 categories:
     - Featured
 tags:
