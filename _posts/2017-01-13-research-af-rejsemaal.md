@@ -2,7 +2,8 @@
 title: 'Her booker og laver vi research af rejsemål'
 date: '2017-01-13T15:56:40+01:00'
 permalink: /research-af-rejsemaal/
-image: /assets/images/20170113_141228473_iOS.jpg
+image: 
+    path: /assets/images/20170113_141228473_iOS.jpg
 categories:
     - Rejsetips
 tags:
