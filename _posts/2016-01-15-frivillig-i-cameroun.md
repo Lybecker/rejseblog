@@ -4,6 +4,8 @@ date: '2016-01-15T20:32:14+01:00'
 author: 'Anders Lybecker'
 permalink: /frivillig-i-cameroun/
 image: /assets/images/Limbe-beach.jpg
+header:
+  overlay_image: /assets/images/Limbe-beach.jpg
 categories:
     - Afrika
     - Featured
