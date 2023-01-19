@@ -1,0 +1,13 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+Her er vores nyttige rejsetips til dig, som forhåbentligt du kan drage nytte af.
+
+{% for post in site.posts %} 
+    {% if post.categories contains "Rejsetips" %}
+        {% include archive-single.html type=entries_layout %}
+    {% endif %}
+{% endfor %}
