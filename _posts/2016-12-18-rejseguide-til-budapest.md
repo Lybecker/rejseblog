@@ -3,6 +3,8 @@ title: 'Forlænget weekend i Budapest'
 date: '2016-12-18T21:29:10+01:00'
 permalink: /rejseguide-til-budapest/
 image: /assets/images/Buda-Castle-42.jpg
+header:
+  overlay_image: /assets/images/Buda-Castle-42.jpg
 categories:
     - Europa
     - Featured

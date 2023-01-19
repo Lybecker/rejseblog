@@ -4,6 +4,8 @@ date: '2016-07-17T07:37:20+01:00'
 author: 'Anders Lybecker'
 permalink: /valg-af-trolley-til-handbagage/
 image: /assets/images/Luggage-full.jpg
+header:
+  overlay_image: /assets/images/Luggage-full.jpg
 categories:
     - Featured
     - Rejsetips

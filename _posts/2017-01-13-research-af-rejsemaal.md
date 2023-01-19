@@ -4,6 +4,8 @@ date: '2017-01-13T15:56:40+01:00'
 permalink: /research-af-rejsemaal/
 image: 
     path: /assets/images/20170113_141228473_iOS.jpg
+header:
+  overlay_image: /assets/images/20170113_141228473_iOS.jpg
 categories:
     - Rejsetips
 tags:
