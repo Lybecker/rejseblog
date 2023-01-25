@@ -5,7 +5,7 @@ This is the repository of my travel blog - read it at [https://www.rejse.blog/](
 ## How to run
 
 ```bash
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 
 [Jekyll cheatsheet](https://cloudcannon.com/community/jekyll-cheat-sheet/)
